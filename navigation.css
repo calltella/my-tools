@@ -1,0 +1,38 @@
+.home-navigation {
+  margin: 0 0 16px;
+}
+
+.home-navigation .home-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.home-navigation .home-link:hover {
+  background: var(--accent-soft, var(--surface2, rgba(127, 127, 127, .12)));
+}
+
+.home-navigation .home-link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.toolbar-inner > .home-navigation {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
