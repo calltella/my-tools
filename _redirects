@@ -1,0 +1,6 @@
+/image /image-editor/ 301
+/image/* /image-editor/:splat 301
+/pdf-edit /pdf-annotator/ 301
+/pdf-edit/* /pdf-annotator/:splat 301
+/qrcode-reader /qr-code-reader/ 301
+/qrcode-reader/* /qr-code-reader/:splat 301
